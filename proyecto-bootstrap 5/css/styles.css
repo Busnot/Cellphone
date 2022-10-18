@@ -1,0 +1,53 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+/* filtros */
+
+.filter-top{
+  display: inline-flex;
+	align-items: center;
+	justify-content: center;
+  height: 60px;
+  width: 355px;
+  position: relative;
+	overflow: hidden;
+  padding: 0 10px;
+}
+
+
+
+/* iconos */
+
+.iconos i{
+  color: #fff;;
+}
+
+
+/* otros elementos graficos */
+
+.lateral-bar{
+  overflow-x: hidden; 
+  overflow-y: auto; 
+  height: 75vh; 
+  border: 0px; 
+  padding: 10px; 
+  border-radius: 10px; 
+  width: 18rem;
+}
+
+/* media queries para tamanios de barra search y  cards */
+
+@media (min-width: 810px) { 
+  .input-bar  input {
+    width: 450px !important;
+  }
+ }
+
+ @media (min-width: 1920px) { 
+  .input-bar  input {
+    width: 600px !important;
+  }
+ }
+
+

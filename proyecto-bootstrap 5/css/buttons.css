@@ -1,0 +1,60 @@
+
+/* botones */
+
+.boton {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	height: 35px;
+    background: yellow;
+	color: rgb(2, 2, 2);
+	font-size: 17px;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+	transition: .3s ease all;
+	border-radius: 5px;
+	position: relative;
+	overflow: hidden;
+}
+
+.boton span {
+	position: relative;
+	z-index: 2;
+	transition: .3s ease all;
+}
+
+/* boton inicio */
+
+.boton.inicio{
+    width: 90px;
+    border: 1px solid !important;
+} 
+
+/* boton estadisticas */
+
+.boton.estadisticas{
+    width: 130px;
+    border: 1px solid !important;
+}
+
+/* boton precio */
+
+.boton.precio {
+    width: 90px;
+    color: rgb(2, 2, 2);
+}
+
+/* boton fecha */
+
+.boton.fecha {
+    width: 90px;
+    color: rgb(0, 0, 0);
+    /* background:#f37848; */
+}
+
+.boton.comprar{
+	height: 55px !important;
+	text-transform: uppercase;
+	width: 200px !important; 
+}
